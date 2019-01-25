@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('../fonts/monsterrat/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/monsterrat/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('../fonts/monsterrat/Montserrat-Light.woff2') format('woff2'),
+        url('../fonts/monsterrat/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/myriadpro/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/myriadpro/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gregor';
+    src: url('../fonts/gregor/Gregor.woff2') format('woff2'),
+        url('../fonts/gregor/Gregor.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
