@@ -220,6 +220,9 @@ header {
 .map img {
 	width: 100%;
 }
+.screen-tab-none {
+	display: none;
+}
 .p-logo__big {
 	position: absolute;
 	top: 35%;
