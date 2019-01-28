@@ -751,47 +751,299 @@ border-radius: 9px;
 cursor: pointer;
 }
 .file-upload span {
-	top: -2px;
-	left: 14px;
-	position: absolute;
-	font-family: Montserrat;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #000000;
+top: -2px;
+left: 14px;
+position: absolute;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+letter-spacing: 0.3px;
+text-align: left;
+color: #000000;
 }
 .calculated__button-order {
-	margin-top: 25px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+margin-top: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .row-calculated__four {
-	padding-bottom: 73px;
+padding-bottom: 73px;
 }
 .p-calculated__usual {
-	font-family: MontserratRegular;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0.4px;
-  text-align: left;
-  color: #000000;
+font-family: MontserratRegular;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+letter-spacing: 0.4px;
+text-align: left;
+color: #000000;
 }
 .check-calculated label {
+font-family: MontserratRegular;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+letter-spacing: 0.4px;
+text-align: left;
+color: #000000;
+}
+.select-mob__visible {
+display: none;
+}
+/*styles card-product*/
+.navigation {
+display: flex;
+justify-content: center;
+width: 100%;
+height: 90px;
+}
+.name-product__price {
+margin-top: auto;
+margin-bottom: auto;
+}
+.name-product__price p {
+font-family: MontserratRegular;
+font-size: 20px;
+font-weight: 600;
+font-style: normal;
+font-stretch: normal;
+letter-spacing: 0.5px;
+text-align: left;
+color: #000000;
+}
+.name-product__price p:nth-of-type(2) {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.name-product__price p:nth-of-type(2) span:nth-of-type(1) {
+font-size: 20px;
+font-weight: normal;
+letter-spacing: 0.5px;
+}
+.name-product__price p:nth-of-type(2) span:nth-of-type(2) {
+font-size: 24px;
+font-weight: normal;
+}
+.owl-prev {
+margin-right: 70px;
+height: 18px;
+margin-top: auto;
+margin-bottom: auto;
+border: none;
+background: url(../img/icons/arrow-owl-c-l-2.png) no-repeat;
+}
+.owl-prev span, .owl-next span {
+display: none;
+}
+.owl-next {
+margin-left: 70px;
+height: 18px;
+margin-top: auto;
+margin-bottom: auto;
+border: none;
+background: url(../img/icons/arrow-owl-c-l.png) no-repeat;
+}
+.button-carousel, .button-carousel-2 {
+display: flex;
+align-items: center;
+justify-content: center;
+max-width: 395px;
+width: 100%;
+height: 39px;
+margin-left: auto;
+margin-top: 25px;
+border-radius: 19.5px;
+background-color: #e89321;
+font-family: MontserratRegular;
+font-size: 18px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+letter-spacing: 0.5px;
+text-align: center;
+color: #ffffff;
+}
+.button-carousel-2 {
+max-width: 273px;
+margin-left: 0;
+margin-right: auto;
+}
+.right-bar__carusel {
+padding-top: 18px;
+}
+.p-card__carusel {
+max-width: 350px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+font-family: MontserratRegular;
+font-size: 18px;
+font-weight: 600;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.67;
+letter-spacing: 0.5px;
+text-align: left;
+color: #000000;
+}
+.p-card__carusel span {
+display: block;
+font-weight: normal;
+}
+#bx-pager {
+padding-left: 20px;
+}
+#bx-pager a {
+display: block;
+height: 33.333333%;
+}
+#bx-pager a:nth-of-type(2) {
+display: flex;
+align-items: center;
+}
+#bx-pager a:nth-of-type(3){
+display: flex;
+align-items: flex-end;
+}
+#bx-pager a img{
+max-width: 105px;
+width: 100%;
+}
+.img-slider__all {
+padding-top: 31px;
+display: flex;
+align-items: center;
+}
+.img-slider__all .bx-wrapper {
+box-shadow: none;
+border: none;
+margin-bottom: 0;
+height: auto;
+}
+.img-slider__all .bx-wrapper div {
+max-width: 505px;
+width: 100%;
+}
+.row-carusel__padding {
+padding-bottom: 73px;
+}
+.owl-carousel2__all {
+margin: 0 auto;
+padding-left: 35px;
+padding-right: 35px;
+position: relative;
+display: flex;
+justify-content: center;
+}
+.navigation2 {
+position: absolute;
+top: 35%;
+max-width: 1100px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.navigation2 .owl-prev {
+margin-right: 0;
+}
+.navigation2 .owl-next {
+margin-left: 0;
+}
+.product-owl p {
+margin-top: 7px;
+font-family: MontserratRegular;
+font-size: 20px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.5;
+letter-spacing: 0.5px;
+text-align: center;
+color: #e89321;
+}
+.product-owl p:nth-of-type(2) {
+color: #000000;
+}
+.p-title__cntr {
+padding-left: 35px;
+margin-left: auto;
+margin-right: auto;
+}
+.p-title__cntr .p-title__mini {
+padding-top: 27px;
+padding-bottom: 35px;
+}
+.page-bot__carusel {
+padding-bottom: 40px;
+}
+.right-bar__carusel_mob {
+display: none;
+}
+.right-bar__carusel_mob .p-card__carusel {
+max-width: 100%;
+font-size: 12px;
+}
+/*styles card product appliences*/
+.img-appliances {
+display: flex;
+align-items: flex-start;
+justify-content: center;
+margin-top: 5%;
+}
+#tabs .tab {
+display: inline-block; /* выстраиваем вкладки в один ряд */
+padding: 5px 10px;
+cursor: pointer;
+position: relative;
+z-index:5;
+border: 1px solid #959595;
+font-family: MontserratRegular;
+font-size: 18px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+letter-spacing: 0.5px;
+text-align: left;
+}
+#tabs .whiteborder {
+color: #e89321;
+}
+#tabs .tabContent {
+width: 100%;
+position: relative;
+z-index:1;
+}
+#tabs .tabContent p {
+	margin-top: 7px;
 	font-family: MontserratRegular;
-  font-size: 16px;
-  font-weight: normal;
+  font-size: 18px;
+  font-weight: 600;
   font-style: normal;
   font-stretch: normal;
-  letter-spacing: 0.4px;
+  line-height: 1.67;
+  letter-spacing: 0.5px;
   text-align: left;
   color: #000000;
 }
-.select-mob__visible {
-	display: none;
+#tabs .tabContent p span {
+	font-weight: normal;
+	margin-left: 4px;
+}
+#tabs .tabContent:nth-of-type(2) p {
+	margin-top: 20px;
+}
+#tabs .hide {
+display: none;
+}
+#tabs .show {
+display: block;
+}
+.row-tabs__padding {
+	padding-top: 51px;
 }
