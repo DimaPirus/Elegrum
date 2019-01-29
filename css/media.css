@@ -1,5 +1,19 @@
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1370px) {
+	.address-contacts {
+		padding-left: 30px;
+	}
+	.address-contacts:before {
+		left: -8px;
+	}
+}
+@media only screen and (max-width: 1300px) {
+.filter-material .filtr-cntr label span {
+display: block;
+padding-left: 43px;
+}
+}
 @media only screen and (max-width: 1265px) {
 .col-bg__grey div {
 height: 100%;
@@ -277,6 +291,89 @@ font-size: 12px;
 .top-collections__right a:nth-of-type(1) {
 	margin-right: 7%;
 }
+.filter-material .filtr-cntr label span {
+display: block;
+padding-left: 26px;
+}
+.btn-collections {
+	font-size: 12px;
+}
+.navlinks {
+	justify-content: flex-start;
+}
+.navlinks a {
+	font-size: 12px;
+}
+.menu {
+	justify-content: flex-start;
+}
+.filtres div div .filtr-cntr .check-calculated {
+	width: 65%;
+	margin: 5px auto;
+}
+.filtres .filter-style div .filtr-cntr .check-calculated {
+	width: 70%;
+}
+.filtres .filter-configuration div .filtr-cntr .check-calculated {
+	width: 90%;
+}
+.p-name__contacts {
+	font-size: 20px;
+}
+.contacts-form form .input__name input::-webkit-input-placeholder,
+.contacts-form form .input__number input::-webkit-input-placeholder,
+.contacts-form form .input__city input::-webkit-input-placeholder,
+.contacts-form form .input__email input::-webkit-input-placeholder,
+.contacts-form form .input__textarea textarea::-webkit-input-placeholder {
+font-size: 12px;
+}
+.contacts-form form .input__name input::-moz-placeholder,
+.contacts-form form .input__number input::-moz-placeholder,
+.contacts-form form .input__city input::-moz-placeholder,
+.contacts-form form .input__email input::-moz-placeholder,
+.contacts-form form .input__textarea textarea::-moz-placeholder {
+font-size: 12px;
+}
+.contacts-form form .input__name input:-moz-placeholder,
+.contacts-form form .input__number input:-moz-placeholder,
+.contacts-form form .input__city input:-moz-placeholder,
+.contacts-form form .input__email input:-moz-placeholder,
+.contacts-form form .input__textarea textarea:-moz-placeholder {
+font-size: 12px;
+}
+.contacts-form form .input__name input:-ms-input-placeholder,
+.contacts-form form .input__number input:-ms-input-placeholder,
+.contacts-form form .input__city input:-ms-input-placeholder,
+.contacts-form form .input__email input:-ms-input-placeholder,
+.contacts-form form .input__textarea textarea:-ms-input-placeholder {
+font-size: 12px;
+}
+.input__name #name, .input__number #number, .input__city #city, .input__email #email, .input__textarea textarea {
+	height: 35px;
+}
+.input__textarea textarea {
+	height: 70px;
+}
+.check-calculated-contacts label span {
+padding-left: 25px;
+}
+.input__name, .input__number, .input__city, .input__email, .input__textarea {
+	max-width: 320px;
+}
+.contacts-form {
+	width: 470px;
+	margin-left: -235px;
+}
+.check-calculated-contacts {
+	width: 270px;
+}
+.btn-contacts {
+	width: 200px;
+	font-size: 14px;
+}
+.address-contacts p {
+	font-size: 13px;
+}
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
@@ -308,7 +405,7 @@ background-color: #f5f5f5;
 top: 0;
 left: -100%;
 transition: left .2s;
-z-index: 2;
+z-index: 12;
 -webkit-transform: translateZ(0);
 -webkit-backface-visibility: hidden;
 }
@@ -706,10 +803,111 @@ max-width: 100%;
 .right-bar__description {
 	font-size: 12px;
 }
+.navlinks {
+	justify-content: space-around;
+}
+.btn-collections:nth-of-type(4) {
+	display: none;
+}
+.mob-coll__btn {
+	display: flex;
+	justify-content: center;
+}
+.mob-coll__btn a {
+	margin-bottom: 10px;
+	display: block;
+	border: 1px solid black;
+	padding: 0 10px;
+	border-radius: 15px;
+	font-family: MontserratRegular;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #000000;
+}
+.filter-material .filtr-cntr:nth-of-type(1),
+.filter-material .filtr-cntr:nth-of-type(2) {
+	padding-bottom: 0;
+}
+.filter-material .filtr-cntr:nth-of-type(3),
+.filter-material .filtr-cntr:nth-of-type(4) {
+	padding-top: 0;
+}
+.filter-material .filtr-cntr label span{
+	padding-left: 20px;
+}
+.filter-material .filtr-cntr {
+	max-width: 50%;
+}
+.filtres .filtr-cntr div div .check-calculated {
+	width: 50%;
+	margin: 5px auto;
+}
+.btn-collections {
+	position: relative;
+	right: 0;
+}
+.toggle-filter-configuration, .toggle-filter-style, .toggle-filter-material {
+	margin: 0;
+}
+.filtres div div .filtr-cntr .check-calculated {
+	width: 45%;
+}
+.filtres .filter-configuration div .filtr-cntr .check-calculated {
+	width: 70%;
+}
+.filtr-cntr {
+	max-width: 50%;
+}
+.img-contacts__all {
+	display: none;
+}
+.contacts-form {
+	position: relative;
+}
+.check-calculated-contacts label {
+	font-size: 8px;
+}
+.check-calculated-contacts label span {
+	padding: 0;
+}
+.check-calculated-contacts {
+	width: 285px;
+}
+.address-contacts {
+	padding-left: 60px;
+	padding-right: 30px;
+}
+.address-contacts:before {
+	left: 15px;
+}
+.btn-contacts {
+	width: 180px;
+	font-size: 12px;
+}
+.p-name__contacts {
+	font-size: 16px;
+}
+.address-contacts p {
+	font-size: 11px;
+}
+.contacts-form {
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 500px;
+}
 }
 @media only screen and (max-width: 600px) {
 .button-carousel, .button-carousel-2 {
 	max-width: 40%;
+}
+.filtres .filter-configuration div .filtr-cntr .check-calculated {
+	width: 75%;
 }
 }
 @media only screen and (max-width: 520px) {
@@ -718,10 +916,13 @@ max-width: 100%;
 		width: 20vh;
 		height: 10px;
 	}
+	.filtres .filter-configuration div .filtr-cntr .check-calculated {
+	width: 80%;
+}
 }
 @media only screen and (max-width: 480px) {
-.name-product__price {
-
+	.filtres .filter-configuration div .filtr-cntr .check-calculated {
+	width: 85%;
 }
 .name-product__price span {
 	display: block;
@@ -738,6 +939,16 @@ max-width: 100%;
 .button-carousel, .button-carousel-2 {
 	max-width: 200px;
 }
+.filtres .filter-configuration div .filtr-cntr .check-calculated {
+	width: 92%;
+}
+.filtr-cntr {
+	padding-right: 10px;
+	padding-left: 10px;
+} 
+.filtres .filter-style div .filtr-cntr .check-calculated {
+	width: 80%;
+}
 }
 @media only screen and (max-width: 400px) {
 .check-calculated label span {
@@ -745,11 +956,28 @@ max-width: 100%;
 	top: -10px;	
 	padding-left: 20px;
 }
+.filtres div div .filtr-cntr .check-calculated label span {
+	top: 0;
+}
 .name-product__price p, .name-product__price p:nth-of-type(2) span:nth-of-type(1) {
 		font-size: 10px;
 	}
 	.name-product__price span {
 		font-size: 12px;	
+	}
+	.filtres div div .filtr-cntr .check-calculated {
+		width: 80%;
+	}
+	.navlinks a {
+		font-size: 10px;
+	}
+	.check-calculated-contacts {
+		width: 290px;
+	}
+	.check-calculated-contacts label span {
+		top: 0;
+		margin: 0;
+		padding: 0;
 	}
 }
 @media only screen and (max-width: 369px) {
@@ -765,6 +993,9 @@ max-width: 100%;
 #tabs .tabContent p {
 	font-size: 10px;
 }
+.filtres .filter-style div .filtr-cntr .check-calculated {
+	width: 85%;
+} 
 }
 @media only screen and (max-width: 350px) {
 .row-calculated__second .col-6 {
@@ -774,4 +1005,7 @@ max-width: 100%;
 #demo-b input[type=search]:focus {
 		width: 10vh;
 	} 
+	.filtres .filter-style div .filtr-cntr .check-calculated {
+	width: 90%;
+}
 }
