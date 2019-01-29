@@ -256,6 +256,27 @@ font-size: 12px;
 .right-bar__tabs {
 	padding-bottom: 20px;
 }
+/*tab card product fittings*/
+.right-bar__description {
+	font-size: 14px;
+}
+/*tab collections*/
+.top-collections__cntr {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.owl-carousel__collections p:nth-of-type(1) {
+	font-size: 14px;
+}
+.owl-carousel__collections p:nth-of-type(2) {
+	font-size: 12px;
+}
+.top-collections__right a {
+	font-size: 12px;
+}
+.top-collections__right a:nth-of-type(1) {
+	margin-right: 7%;
+}
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
@@ -612,8 +633,14 @@ max-width: 100%;
 .button-carousel span:nth-of-type(2) {
 	text-transform: uppercase;
 }
-.right-bar__carusel {
-	display: none;
+.row-carusel__padding {
+	display: flex;
+    flex-direction: column-reverse;
+    padding-top: 17px;
+}
+.p-card__carusel {
+	font-size: 12px;
+	margin-left: 0;
 }
 .img-slider__all {
 	flex-direction: column;
@@ -669,11 +696,28 @@ max-width: 100%;
 #tabs .tabContent p {
 	font-size: 12px;
 }
+/*mob card product fittings*/
+.right-bar__description {
+	margin-top: 20px;
+}
+.name-product__price p {
+	text-align: center;
+}
+.right-bar__description {
+	font-size: 12px;
+}
 }
 @media only screen and (max-width: 600px) {
 .button-carousel, .button-carousel-2 {
 	max-width: 40%;
 }
+}
+@media only screen and (max-width: 520px) {
+	#demo-b input[type=search]:focus {
+		margin-top: 5px;
+		width: 20vh;
+		height: 10px;
+	}
 }
 @media only screen and (max-width: 480px) {
 .name-product__price {
@@ -688,6 +732,9 @@ max-width: 100%;
 .owl-carousel2__all {
 	max-width: 80%;
 }
+#demo-b input[type=search]:focus {
+		width: 15vh;
+	}
 .button-carousel, .button-carousel-2 {
 	max-width: 200px;
 }
@@ -724,5 +771,7 @@ max-width: 100%;
 	padding-right: 5px;
 	padding-left: 5px;
 }
-}
+#demo-b input[type=search]:focus {
+		width: 10vh;
+	} 
 }

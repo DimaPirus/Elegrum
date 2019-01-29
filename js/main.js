@@ -70,6 +70,29 @@ items:3
 }
 }
 })
+// owl-carousel2
+$('.owl-carousel3').owlCarousel({
+loop:true,
+margin:40,
+nav:false,
+dots:false,
+navContainer: ".navigation3",
+slideBy: 3,
+responsive:{
+0:{
+items:1
+},
+465:{
+items:2
+},
+768:{
+items:3
+},
+1000:{
+items:3
+}
+}
+})
 // bxSlider
 jQuery(document).ready(function(){
 jQuery('.img-slider').bxSlider({
@@ -142,3 +165,18 @@ function showTabsContent(b){
         tabContent[b].classList.add('show');
     }
 }
+// фильтры в Коллекциях
+function toggle(el) {
+el.style.display = (el.style.display == 'none') ? '' : 'none'
+}
+
+function openbox(id){
+    display = document.getElementById(id).style.display;
+
+    if(display=='none'){
+       document.getElementById(id).style.display='block';
+    }else{
+       document.getElementById(id).style.display='none';
+    }
+}
+
