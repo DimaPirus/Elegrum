@@ -38,6 +38,12 @@ right: -23%;
 .p-logo__big {
 right: -21%;
 }
+.column-right__second p span {
+	font-size: 22px;
+}
+.column-right__second p {
+	font-size: 14px;
+}
 }
 @media only screen and (max-width: 1099px) {
 .p-questions__item {
@@ -373,6 +379,25 @@ padding-left: 25px;
 }
 .address-contacts p {
 	font-size: 13px;
+}
+.column-right__one p {
+	font-size: 15px;
+}
+.column-right__one p:nth-of-type(2) {
+	font-size: 14px;
+}
+.column-right__second p span {
+	font-size: 18px;
+}
+.column-right__second p {
+	font-size: 12px;
+}
+.column-right__one, .column-right__second {
+	margin-top: 25px;
+}
+.column-right__second {
+	padding-left: 5px;
+	padding-right: 5px;
 }
 }
 /* Small Devices, Tablets */
@@ -901,6 +926,12 @@ max-width: 100%;
 	width: 100%;
 	max-width: 500px;
 }
+.page-mob__none {
+	display: none;
+}
+.page-prod-collect__mob {
+	display: block;
+}
 }
 @media only screen and (max-width: 600px) {
 .button-carousel, .button-carousel-2 {
@@ -908,6 +939,20 @@ max-width: 100%;
 }
 .filtres .filter-configuration div .filtr-cntr .check-calculated {
 	width: 75%;
+}
+.page-prod-collect__mob .column-right__one {
+	margin-top: 0;
+}
+.page-prod-collect__mob .column-right__one img {
+	height: 60%;
+	padding: 0 0%;
+}
+.page-prod-collect__mob .column-right__second {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.page-prod-collect__mob .column-right__one {
+	max-height: 240px;
 }
 }
 @media only screen and (max-width: 520px) {
@@ -919,6 +964,14 @@ max-width: 100%;
 	.filtres .filter-configuration div .filtr-cntr .check-calculated {
 	width: 80%;
 }
+.page-prod-collect__mob .column-right__one {
+	padding-right: 3px;
+	padding-left: 3px;
+	max-height: 240px;
+}
+.page-prod-collect__mob .column-right__one img {
+	height: 70%;
+} 
 }
 @media only screen and (max-width: 480px) {
 	.filtres .filter-configuration div .filtr-cntr .check-calculated {
@@ -978,6 +1031,12 @@ max-width: 100%;
 		top: 0;
 		margin: 0;
 		padding: 0;
+	}
+	.page-prod-collect__mob .column-right__one p {
+		font-size: 9px;
+	}
+	.page-prod-collect__mob .column-right__one p:nth-of-type(2) {
+		font-size: 10px;`
 	}
 }
 @media only screen and (max-width: 369px) {

@@ -1471,3 +1471,73 @@ font-family: MontserratRegular;
 	display: block;
 	background: url(../img/icons/map.png);
 }
+.column-right__one,
+.column-right__second {
+	margin-top: 35px;
+}
+.column-right__second {
+	background: white;
+	padding-top: 24px;
+	padding-bottom: 23px;
+}
+.column-right__one p {
+	font-family: Gregor;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #e89321;
+}
+.column-right__one p:nth-of-type(2) {
+	font-family: MontserratRegular;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+.column-right__second p {
+	background: transparent;
+font-family: MontserratRegular;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #000000;
+}
+.column-right__second p span {
+	display: block;
+	font-family: Gregor;
+  font-size: 24px;
+  letter-spacing: 0.6px;
+}
+.column-right__second p:nth-of-type(2) {
+	margin-top: 21px;
+}
+.column-right__one img {
+	width: 100%;
+}
+.page-prod-collect__mob {
+	display: none;
+}
+.page-prod-collect__mob .column-right__one {
+max-height: 270px;
+}
+.page-prod-collect__mob .column-right__one p {
+	text-align: center;
+	font-size: 11px;
+}
+.page-prod-collect__mob .column-right__one img {
+	height: 80%;
+	padding: 0 5%;
+}
+.page-prod-collect__mob .column-right__one p:nth-of-type(2) {
+	font-size: 12px;
+}
+.page-prod-collect__mob .column-right__second {
+	margin-top: 5px;
+	padding: 15px;
+}
