@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="libs/OwlCarousel/dist/assets/owl.carousel.min.css">
 		<link rel="stylesheet" href="libs/OwlCarousel/dist/assets/owl.theme.default.min.css">
 		<link rel="stylesheet" href="libs/bxslider/dist/jquery.bxslider.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	</head>
 	<body>
 		<header>
@@ -107,12 +108,28 @@
 		<div class="page page-grey__dark top-collections__all">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 d-md-none d-lg-block"></div>
-					<div class="col-lg-4 col-md-8 top-collections__cntr">
-						<a class="link" onclick="openbox('box'); return false;">КОНФИГУРАЦИЯ</a>
-						<div id="box" style="display: none;">Вот он я</div>
-						<a class="link">СТИЛЬ</a>
-						<a class="link">МАТЕРИАЛ</a>
+					<div class="col-lg-4 d-md-none d-lg-block">
+					</div>
+					<div class="col-lg-4">
+						<div style="position: relative">
+							<div class="menu">
+								<div class="navlinks">
+									<a class="toggle-filter-configuration" href="#">КОНФИГУРАЦИЯ</a>
+									<a class="toggle-filter-style" href="#">СТИЛЬ</a>
+									<a class="toggle-filter-material" href="#">МАТЕРИАЛ</a>
+								</div>
+							</div>
+							<div class="filter-style">
+								настройки стиля - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid animi consequuntur doloremque et in iste laudantium, molestiae neque odio perspiciatis quam quod repudiandae rerum sint soluta voluptatem? Similique, voluptatibus.
+							</div>
+							<div class="filter-material">
+								настройки материала - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda cupiditate
+								eius iure, maiores repudiandae. Ad alias, architecto inventore libero nobis non perspiciatis qui soluta sunt, tempora, veritatis voluptas voluptates.
+							</div>
+							<div class="filter-configuration">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam assumenda blanditiis culpa debitis dignissimos, exercitationem fugiat id in libero modi nam numquam quaerat qui recusandae repellat, saepe veritatis vero!
+							</div>
+						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 top-collections__right">
 						<a href="#">Применить</a>
@@ -179,6 +196,7 @@
 				</div>
 			</div>
 		</div>
+		
 		
 		<!-- scripts -->
 		<script type="text/javascript" src="libs/jquery/jquery-3.3.1.min.js"></script>

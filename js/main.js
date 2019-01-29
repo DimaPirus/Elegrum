@@ -166,17 +166,114 @@ function showTabsContent(b){
     }
 }
 // фильтры в Коллекциях
-function toggle(el) {
-el.style.display = (el.style.display == 'none') ? '' : 'none'
-}
 
-function openbox(id){
-    display = document.getElementById(id).style.display;
+    // При клике на ссылку СТИЛЬ
+    $( '.toggle-filter-style' ).click( function ()
+    {
+        // делаем ссылку МАТЕРИАЛ серой
+        $( '.toggle-filter-material' ).removeClass( 'active' );
 
-    if(display=='none'){
-       document.getElementById(id).style.display='block';
-    }else{
-       document.getElementById(id).style.display='none';
-    }
-}
+        // прячем фильтр МАТЕРИАЛ
+        $( '.filter-material' ).hide();
+      
+        // делаем ссылку КОНФИГУРАЦИЯ серой
+        $( '.toggle-filter-configuration' ).removeClass( 'active' );
+
+        // прячем фильтр КОНФИГУРАЦИЯ
+        $( '.filter-configuration' ).hide();
+
+        if(  $( '.toggle-filter-style' ).hasClass('active') )
+        {
+                // ссылка СТИЛЬ активна, нужно спрятать фильтр и снять активный класс
+     
+                // Делаем ссылку СТИЛЬ серой
+               $( '.toggle-filter-style' ).removeClass( 'active' );
+
+               // прячем фильтр СТИЛЬ
+              $( '.filter-style' ).slideUp();     
+        }
+        else // ссылка СТИЛЬ неактивна, активируем
+        {
+            // Делаем ссылку СТИЛЬ желтой
+            $( '.toggle-filter-style' ).addClass( 'active' );
+
+            // Показываем фильтр СТИЛЬ
+            $( '.filter-style' ).slideDown();    
+        }
+      
+    } );
+
+    // то же самое для ссылки МАТЕРИАЛ
+    $( '.toggle-filter-material' ).click( function ()
+    {
+      
+       // делаем ссылку КОНФИГУРАЦИЯ серой
+        $( '.toggle-filter-configuration' ).removeClass( 'active' );
+
+        // прячем фильтр КОНФИГУРАЦИЯ
+        $( '.filter-configuration' ).hide();
+        
+         // делаем ссылку СТИЛЬ серой
+        $( '.toggle-filter-style' ).removeClass( 'active' );
+
+        // прячем фильтр СТИЛЬ
+        $( '.filter-style' ).hide();
+      
+        if(  $( '.toggle-filter-material' ).hasClass('active') )
+        {
+                // ссылка СТИЛЬ активна, нужно спрятать фильтр и снять активный класс
+     
+                // делаем ссылку СТИЛЬ серой
+        $( '.toggle-filter-style' ).removeClass( 'active' );
+
+        // прячем фильтр СТИЛЬ
+        $( '.filter-style' ).hide();     
+        }
+        else // ссылка СТИЛЬ неактивна, активируем
+        {
+            // Делаем ссылку СТИЛЬ желтой
+            $( '.toggle-filter-material' ).addClass( 'active' );
+
+            // Показываем фильтр СТИЛЬ
+            $( '.filter-material' ).slideDown();    
+        }
+    } );
+  
+     // При клике на ссылку КОНФИГУРАЦИЯ
+    $( '.toggle-filter-configuration' ).click( function ()
+    {
+        // делаем ссылку МАТЕРИАЛ серой
+        $( '.toggle-filter-material' ).removeClass( 'active' );
+
+        // прячем фильтр МАТЕРИАЛ
+        $( '.filter-material' ).hide();
+      
+        // делаем ссылку СТИЛЬ серой
+        $( '.toggle-filter-style' ).removeClass( 'active' );
+
+        // прячем фильтр СТИЛЬ
+        $( '.filter-style' ).hide();
+
+       
+      
+      if(  $( '.toggle-filter-configuration' ).hasClass('active') )
+        {
+                // ссылка СТИЛЬ активна, нужно спрятать фильтр и снять активный класс
+     
+                // Делаем ссылку СТИЛЬ серой
+               $( '.toggle-filter-configuration' ).removeClass( 'active' );
+
+               // прячем фильтр СТИЛЬ
+              $( '.filter-configuration' ).slideUp();     
+        }
+        else // ссылка СТИЛЬ неактивна, активируем
+        {
+            // Делаем ссылку СТИЛЬ желтой
+            $( '.toggle-filter-configuration' ).addClass( 'active' );
+
+            // Показываем фильтр СТИЛЬ
+            $( '.filter-configuration' ).slideDown();    
+        }
+      
+    } );
 

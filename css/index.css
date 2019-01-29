@@ -1188,6 +1188,18 @@ color: #e78b03;
 	position: relative;
 	top:10px;
 }
-.link {
-	cursor: pointer;
+/*styles collections filtres*/
+.navlinks {
+	display: flex;
+}
+.filter-style, .filter-material, .filter-configuration {
+	position: absolute;
+	display: none;
+}
+.navlinks a {
+	color: #333;
+	text-decoration: none;
+}
+.navlinks a.active {
+	color: #e78b03;
 }
