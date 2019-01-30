@@ -1531,7 +1531,7 @@ max-height: 270px;
 	font-size: 11px;
 }
 .page-prod-collect__mob .column-right__one img {
-	height: 80%;
+	height: 77%;
 	padding: 0 5%;
 }
 .page-prod-collect__mob .column-right__one p:nth-of-type(2) {
@@ -1540,4 +1540,18 @@ max-height: 270px;
 .page-prod-collect__mob .column-right__second {
 	margin-top: 5px;
 	padding: 15px;
+}
+.filter-style .check-calculated {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.filter-configuration .check-calculated {
+	margin-left: auto;
+	margin-right: auto;
+	width: 255px;
+	padding-left: 0;
+	padding-right: 0;
 }

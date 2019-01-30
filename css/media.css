@@ -920,6 +920,8 @@ max-width: 100%;
 	font-size: 11px;
 }
 .contacts-form {
+	padding-right: 15px;
+	padding-left: 15px;
 	left: 0;
 	margin-left: auto;
 	margin-right: auto;
@@ -948,6 +950,13 @@ max-width: 100%;
 .column-right__one {
 	padding: 5px 3px;
 }
+.address-contacts {
+	padding-bottom: 31px;
+	padding-left: 52px;
+}
+.page-contacts__padding {
+	padding-bottom: 50px;
+}
 }
 @media only screen and (max-width: 600px) {
 .button-carousel, .button-carousel-2 {
@@ -960,7 +969,6 @@ max-width: 100%;
 	margin-top: 0;
 }
 .page-prod-collect__mob .column-right__one img {
-	height: 60%;
 	padding: 0 0%;
 }
 .page-prod-collect__mob .column-right__one {
@@ -982,7 +990,7 @@ max-width: 100%;
 	max-height: 240px;
 }
 .page-prod-collect__mob .column-right__one img {
-	height: 70%;
+	height: 75%;
 } 
 }
 @media only screen and (max-width: 480px) {
