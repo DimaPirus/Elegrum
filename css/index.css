@@ -334,7 +334,7 @@ margin-top: 0;
 .page-grey__dark {
 background-color: #e3e3e3;
 }
-.button-order {
+.button-menu {
 display: flex;
 align-items: center;
 justify-content: center;
@@ -351,6 +351,11 @@ font-stretch: normal;
 letter-spacing: 0.5px;
 text-align: center;
 color: #ffffff;
+}
+.modal-window__btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .page-footer {
 margin-top: 58px;
@@ -713,6 +718,7 @@ font-stretch: normal;
 letter-spacing: 0.4px;
 text-align: left;
 color: #000000;
+resize: none;
 }
 .file-upload {
 display: flex;
@@ -849,6 +855,11 @@ margin-bottom: auto;
 border: none;
 background: url(../img/icons/arrow-owl-c-l.png) no-repeat;
 }
+.button-carousel-all {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .button-carousel, .button-carousel-2 {
 display: flex;
 align-items: center;
@@ -856,7 +867,6 @@ justify-content: center;
 max-width: 395px;
 width: 100%;
 height: 39px;
-margin-left: auto;
 margin-top: 25px;
 border-radius: 19.5px;
 background-color: #e89321;
@@ -869,10 +879,12 @@ letter-spacing: 0.5px;
 text-align: center;
 color: #ffffff;
 }
+.button-carousel span:nth-of-type(1) {
+	margin-right: 5px;
+}
 .button-carousel-2 {
 max-width: 273px;
-margin-left: 0;
-margin-right: auto;
+margin-left: 29px;
 }
 .right-bar__carusel {
 padding-top: 18px;
@@ -965,10 +977,10 @@ font-stretch: normal;
 line-height: 1.5;
 letter-spacing: 0.5px;
 text-align: center;
-color: #e89321;
-}
-.product-owl p:nth-of-type(2) {
 color: #000000;
+}
+.product-owl a p {
+color: #e89321;
 }
 .p-title__cntr {
 padding-left: 35px;
@@ -1125,7 +1137,7 @@ margin: 0 auto;
 .owl-carousel__collections p {
 text-align: left;
 }
-.owl-carousel__collections p:nth-of-type(1) {
+.owl-carousel__collections a p {
 margin-top: 16px;
 font-family: Gregor;
 font-size: 18px;
@@ -1136,7 +1148,7 @@ letter-spacing: 0.5px;
 text-align: left;
 color: #e89321;
 }
-.owl-carousel__collections p:nth-of-type(2) {
+.owl-carousel__collections p {
 margin-top: 12px;
 font-family: MontserratRegular;
 font-size: 16px;
@@ -1258,6 +1270,7 @@ color: #e78b03;
 	width: 100%;
 	background: #f5f5f5;
 	z-index: 10;
+	overflow: hidden;
 }
 .filter-style .row,
 .filter-material .row,
@@ -1480,7 +1493,7 @@ font-family: MontserratRegular;
 	padding-top: 24px;
 	padding-bottom: 23px;
 }
-.column-right__one p {
+.column-right__one a p {
 	font-family: Gregor;
   font-size: 18px;
   font-weight: normal;
@@ -1490,7 +1503,7 @@ font-family: MontserratRegular;
   text-align: left;
   color: #e89321;
 }
-.column-right__one p:nth-of-type(2) {
+.column-right__one p {
 	font-family: MontserratRegular;
   font-size: 16px;
   letter-spacing: 0.4px;
@@ -1523,9 +1536,6 @@ font-family: MontserratRegular;
 .page-prod-collect__mob {
 	display: none;
 }
-.page-prod-collect__mob .column-right__one {
-max-height: 270px;
-}
 .page-prod-collect__mob .column-right__one p {
 	text-align: center;
 	font-size: 11px;
@@ -1554,4 +1564,38 @@ max-height: 270px;
 	width: 255px;
 	padding-left: 0;
 	padding-right: 0;
+}
+.column-right__one .img-prod-col__size {
+	width: 100%;
+	height: 250px;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 12px;
+}
+.column-right__one .img-prod-col__size-1 {
+	background-image: url(../img/products-collections/1-prod_coll.png);
+}
+.column-right__one .img-prod-col__size-2 {
+	background-image: url(../img/products-collections/2-prod_coll.png);
+}
+.column-right__one .img-prod-col__size-3 {
+	background-image: url(../img/products-collections/3-prod_coll.png);
+}
+.column-right__one .img-prod-col__size-4 {
+	background-image: url(../img/products-collections/4-prod_coll.png);
+}
+.column-right__one .img-prod-col__size-5 {
+	background-image: url(../img/products-collections/5-prod_coll.png);
+}
+.column-right__one .img-prod-col__size-6 {
+	background-image: url(../img/products-collections/6-prod_coll.png);
+}
+.column-right__one .img-prod-col__size-7 {
+	background-image: url(../img/products-collections/7-prod_coll.png);
+}
+.column-right__one .img-prod-col__size-8 {
+	background-image: url(../img/products-collections/8-prod_coll.png);
+}
+.column-right__one div {
+	padding-bottom: 5px;
 }

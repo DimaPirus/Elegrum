@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/font.css">
 		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="css/media.css">
+		<link rel="stylesheet" href="css/modal_window.css">
 	</head>
 	<body>
 		<header>
@@ -294,9 +295,41 @@
 						</form>
 					</div>
 					<div class="col-md-6 calculated__button-order">
-						<a href="#" class="button-order">
-							Оформить заявку
-						</a>
+						<div class="container-menu">
+				<div class="modal-window__btn">
+					<a href="#win2" class="button-menu">Оформить заявку</a>
+				</div>
+				<!-- Модальное окно 1 -->
+				<a href="#x" class="overlay-menu" id="win2"></a>
+				<div class="popup-menu">
+					<div class="poup-1">
+						<p class="popup-menu__name">Оформить заявку</p>
+						<form action="#" method="post">
+							<p class="input__name">
+								<input type="text" id="name" name="name" placeholder="Имя" />
+							</p>
+							<p class="input__number">
+								<input type="number" id="number" name="number" placeholder="Телефон" />
+							</p>
+							<p class="input__city">
+								<input type="text" id="city" name="city" placeholder="Город" />
+							</p>
+							<p class="input__email">
+								<input type="text" id="email" name="email" placeholder="Email" />
+							</p>
+							<p class="input__textarea">
+								<textarea type="textarea" id="comments" name="comments" placeholder="Комментарий"></textarea>
+							</p>
+							<div class="check-calculated check-calculated-contacts">
+							<input type="checkbox" id="check1" name="check1" />
+							<label for="check1">Я принимаю <a href="#">Условия использования <span>персональных данных</span></a></label>
+						</div>
+						<a href="#" class="btn-contacts">Отправить</a>
+						</form>
+						<a class="close-menu" title="Закрыть" href="#close"></a>
+					</div>
+				</div>
+			</div>
 					</div>
 				</div>
 			</div>
