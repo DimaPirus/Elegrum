@@ -1266,7 +1266,7 @@ color: #e78b03;
 .filter-style,
 .filter-material,
 .filter-configuration {
-	top:49px;
+	top:45px;
 	width: 100%;
 	background: #f5f5f5;
 	z-index: 10;
@@ -1289,6 +1289,22 @@ color: #e78b03;
 }
 .mob-coll__btn {
 	display: none;
+}
+.page-collections__mob {
+	display: none;
+}
+.page-collections__mob .product-owl {
+	padding-top: 18px;
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+}
+.page-collections__mob .product-owl img {
+	width: 100%;
+	margin: 0 auto;
+}
+.page-collections__mob .product-owl p {
+text-align: left;
 }
 /*style contacts*/
 .row-contacts {

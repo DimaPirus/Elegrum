@@ -264,7 +264,7 @@ margin-top: 10px;
 font-size: 16px;
 }
 .product-owl p {
-font-size: 14px;
+font-size: 13px;
 }
 /*card product appliances*/
 #tabs .tab {
@@ -318,7 +318,7 @@ width: 65%;
 margin: 5px auto;
 }
 .filtres .filter-style div .filtr-cntr .check-calculated {
-width: 70%;
+width: 145px;
 }
 .filtres .filter-configuration div .filtr-cntr .check-calculated {
 width: 90%;
@@ -944,7 +944,7 @@ right: 0;
 margin: 0;
 }
 .filtres div div .filtr-cntr .check-calculated {
-width: 45%;
+width: 90px;
 }
 .filtres .filter-configuration div .filtr-cntr .check-calculated {
 width: 185px;
@@ -1103,6 +1103,13 @@ margin-bottom: 5px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+.page-collections__none {
+	display: none;
+}
+.page-collections__mob {
+	display: block;
+	padding-bottom: 20px;
+}
 }
 @media only screen and (max-width: 600px) {
 .button-carousel, .button-carousel-2 {
@@ -1201,6 +1208,9 @@ width: 95px;
 }
 .column-right__one .img-prod-col__size {
 	height: 140px;
+}
+.filter-style, .filter-material, .filter-configuration {
+	top: 43px;
 }
 }
 @media only screen and (max-width: 369px) {
