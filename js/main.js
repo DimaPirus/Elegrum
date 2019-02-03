@@ -126,7 +126,7 @@ h_auto = 89 + "px";
 h = $('.img-height').height();
 $('#bx-pager').height(h);
 console.log (h);
-if(document.documentElement.clientWidth < 768) {
+if(document.documentElement.clientWidth < 991) {
 $('#bx-pager').height(h_auto);
 w = $('.img-height').width();
 $('#bx-pager').width(w);

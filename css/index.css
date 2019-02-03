@@ -1008,9 +1008,16 @@ align-items: flex-start;
 justify-content: center;
 margin-top: 5%;
 }
+.tabs_flex {
+	display: flex;
+	justify-content: space-between;
+}
 #tabs .tab {
-display: inline-block; /* выстраиваем вкладки в один ряд */
-padding: 5px 10px;
+width: 49%;
+display: flex; /* выстраиваем вкладки в один ряд */
+align-items: center;
+justify-content: center;
+height: 40px;
 cursor: pointer;
 position: relative;
 z-index:5;
@@ -1022,6 +1029,11 @@ font-style: normal;
 font-stretch: normal;
 letter-spacing: 0.5px;
 text-align: left;
+}
+#tabs .tab span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 #tabs .whiteborder {
 color: #e89321;
@@ -1614,4 +1626,13 @@ font-family: MontserratRegular;
 }
 .column-right__one div {
 	padding-bottom: 5px;
+}
+/*style card product united*/
+.img-slider__united {
+	align-items: flex-start;
+	padding-top: 0;
+	margin-top: 5%;
+}
+.row-carusel__united {
+	padding-top: 51px;
 }
