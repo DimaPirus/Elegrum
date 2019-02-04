@@ -248,7 +248,7 @@ font-size: 16px;
 .name-product__price p:nth-of-type(2) span:nth-of-type(2) {
 font-size: 18px;
 }
-.button-carousel, .button-carousel-2 {
+.button-carousel, .button-carousel-2, .modal-window__btn-united .button-menu {
 font-size: 14px;
 height: 30px;
 max-width: 325px;
@@ -404,6 +404,31 @@ width: 450px;
 }
 .container-menu .popup-menu div .popup-menu__name {
 font-size: 22px;
+}
+.container-menu__united .popup-menu__united .poup-united .popup-menu__name {
+	font-size: 18px;
+}
+.container-menu__united .popup-menu__united .poup-united {
+	width: 400px;
+}
+.container-menu__united .popup-menu__united .close-menu {
+	top: 8px;
+	right: 8px;
+}
+.container-menu__united .popup-menu__united .close-menu:before {
+	top: 5px;
+	width: 12px;
+}
+.container-menu__united .popup-menu__united .close-menu:after {
+	top: 4px;
+	width: 12px;
+}
+.popup-menu__united .poup-united .select {
+	max-width: 320px;
+	margin-bottom: 12px;
+}
+.popup-menu__united .poup-united .drop {
+	width: 100%;
 }
 .container-menu .popup-menu div .input__name input::-webkit-input-placeholder,
 .container-menu .popup-menu div .input__number input::-webkit-input-placeholder,
@@ -824,8 +849,8 @@ justify-content: center;
 .navigation {
 height: 60px;
 }
-.button-carousel, .button-carousel-2 {
-max-width: 30%;
+.button-carousel, .button-carousel-2, .modal-window__btn-united .button-menu {
+max-width: 232px;
 margin-top: 13px;
 margin-left: auto;
 margin-right: auto;
@@ -1135,6 +1160,24 @@ margin-bottom: 5px;
 #bx-pager {
 	margin-right: auto;
 	margin-left: auto;
+}
+.popup-menu__united .slct {
+	height: 30px;
+}
+.popup-menu__united .poup-united .select {
+	margin-bottom: 5px;
+}
+.popup-menu__united .poup-united .drop {
+	position: absolute;
+}
+.popup-menu__united .poup-united .drop li {
+	height: 30px;
+}
+.container-menu__united .popup-menu__united .poup-united .popup-menu__name {
+	font-size: 14px;
+}
+.popup-menu__united .slct {
+	font-size: 10px;
 }
 }
 @media only screen and (max-width: 600px) {

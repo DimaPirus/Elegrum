@@ -127,17 +127,19 @@
 							<div>
 								<div class="row">
 									<div class="col-md-12 button-carousel-all">
-										<a href="#" class="button-carousel"><span>Заказать</span> <span>р</span>ассчет по своим размерам</a>
+										<div class="modal-window__btn modal-window__btn-united">
+											<a href="#win2" class="button-menu">Заказать рассчет по своим размерам </a>
+										</div>
 										<a href="#" class="button-carousel-2">Заказать дизайн-проект</a>
 									</div>
 								</div>
 								<div class="row row-carusel__padding row-carusel__united">
 									<div class="col-md-6 right-bar__tabs">
 										<div id="tabs">
-											<div class="tabs_flex">
-											<div class="tab whiteborder">Характеристики</div>
-											<div class="tab">Описание товара</div>
-										</div>
+											<div class="tabs">
+												<div class="tab whiteborder">Характеристики</div>
+												<div class="tab">Описание товара</div>
+											</div>
 											<div class="tabContent">
 												<p>
 													Ширина, см:
@@ -261,6 +263,45 @@
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-menu container-menu__united">
+			
+			<!-- Модальное окно 1 -->
+			<a href="#x" class="overlay-menu" id="win2"></a>
+			<div class="popup-menu popup-menu__united">
+				<div class="poup-1 poup-united">
+					<p class="popup-menu__name">Заказать рассчет по своим размерам</p>
+					<form action="#" method="post">
+						<div class="select">
+							<a href="javascript:void(0);" class="slct">Выберите ближайший салон<img src="img/icons/arrow-bottom.png" alt=""></a>
+							<ul class="drop">
+								<li><a href="">Улица 1</a></li>
+								<li><a href="">Улица 2</a></li>
+								<li><a href="">Улица 3</a></li>
+								<li><a href="">Улица 4</a></li>
+							</ul>
+							<input type="hidden" id="select" />
+						</div>
+						<p class="input__name">
+							<input type="text" id="name" name="name" placeholder="Имя" />
+						</p>
+						<p class="input__number">
+							<input type="number" id="number" name="number" placeholder="Телефон" />
+						</p>
+						<p class="input__city">
+							<input type="text" id="city" name="city" placeholder="Город" />
+						</p>
+						<p class="input__email">
+							<input type="text" id="email" name="email" placeholder="Email" />
+						</p>
+						<p class="input__textarea">
+							<textarea type="textarea" id="comments" name="comments" placeholder="Комментарий"></textarea>
+						</p>
+						<a href="#" class="btn-contacts">Отправить</a>
+					</form>
+					<a class="close-menu" title="Закрыть" href="#close"></a>
 				</div>
 			</div>
 		</div>

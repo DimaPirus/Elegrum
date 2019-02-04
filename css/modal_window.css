@@ -50,7 +50,7 @@ transition: transform 0.6s ease-out, -webkit-transform 0.6s ease-out;
 }
 /* активируем мод. окно */
 .overlay-menu:target+.popup-menu {
-top: 25%;
+top: 30%;
 -webkit-transform: translate(-50%,-50%);
 transform: translate(-50%, -50%);
 }
