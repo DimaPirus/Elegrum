@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Заголовок</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="libs/jquery-ui/jquery-ui.min.css">
+		<link rel="stylesheet" href="css/font.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/media.css">
+		<link rel="stylesheet" href="css/modal_window.css">
+		<link rel="stylesheet" href="libs/OwlCarousel/dist/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="libs/OwlCarousel/dist/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="libs/bxslider/dist/jquery.bxslider.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	</head>
+	<body>
+		<header>
+			<div class="page page-grey">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 screen-tab-none mob-menu__top">
+							<div class="menu-burger">
+								<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+								<label class="btn-menu" for="hmt">
+									<span class="first"></span>
+									<span class="second"></span>
+									<span class="third"></span>
+								</label>
+								<ul class="hidden-menu">
+									<li><a href="">Каталог</a></li>
+									<li><a href="">О фабрике</a></li>
+									<li><a href="">Сотрудничество</a></li>
+									<li><a href="">Доставка</a></li>
+									<li><a href="">Отзывы</a></li>
+									<li><a href="">Контакты</a></li>
+									<li><a href="">Рассчитать стоимость</a></li>
+									<li class="hidden-menu__bottom"></li>
+								</ul>
+							</div>
+							<div class="logo-mob">
+								<p class="p-logo__mob">
+									ELEGRUM
+								</p>
+							</div>
+							<div class="search-mob">
+								<form id="demo-b">
+									<input type="search" placeholder="Искать">
+								</div>
+							</div>
+							<div class="col-md-12 top-menu__calculated">
+								<img src="img/icons/logo-img.png" alt="" class="logo-calculated">
+								<ul class="li-nav__list mob-none">
+									<li class="li-questions__item">
+										<a href="#" class="li-questions__link">
+											Каталог
+										</a>
+									</li>
+									<li class="li-questions__item">
+										<a href="#" class="li-questions__link li-questions_active">
+											О фабрике
+										</a>
+									</li>
+									<li class="li-questions__item">
+										<a href="#" class="li-questions__link">
+											Сотрудничество
+										</a>
+									</li>
+									<li class="li-questions__item">
+										<a href="#" class="li-questions__link">
+											Доставка
+										</a>
+									</li>
+									<li class="li-questions__item">
+										<a href="#" class="li-questions__link">
+											Отзывы
+										</a>
+									</li>
+									<li class="li-questions__item">
+										<a href="#" class="li-questions__link">
+											Контакты
+										</a>
+									</li>
+									<li class="li-questions__item">
+										<a href="#" class="li-questions__link">
+											Рассчитать стоимость
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="page">
+				<div class="container">
+					<div class="row">
+						<div class="col-md">
+							<p class="p-page__title p-page__title-delivery p-page__title-delivery-after">
+								ОТЗЫВЫ
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page">
+				<div class="container container-reviews">
+					<div class="row">
+						<div class="col-md-12 review review-img">
+							<div class="review-img__left">
+								<div class="review_header">
+									<div class="review_header__photo">
+										<img src="img/icons/photo-review.png" alt="">
+									</div>
+									<p>Елена</p>
+								</div>
+								<div class="review_header__commentary">
+									<p>Хочу оставить свою признательность за  чудесную кухню «Олимпия», фабрики Plaza Real! Очень благодарна Татьяне Домениковой за  дизайн-проект своей кухни.  Мне так хотелось сделать свою кухню самой красивой, оригинальной, функциональной. Результат показал, что в выборе дизайнера я не ошиблась.</p>
+								</div>
+								<div class="review_header__date">
+									<p>28.09.2017</p>
+								</div>
+							</div>
+							<div class="img-slider__all img-slider__reviews">
+								<ul class="img-slider">
+									<li>
+										<img src="img/reviews/reviews.png" alt="" class="img-height">
+									</li>
+									<li>
+										<img src="img/reviews/reviews.png" alt="" class="img-height">
+									</li>
+									<li>
+										<img src="img/reviews/reviews.png" alt="" class="img-height">
+									</li>
+								</ul>
+								<div id="bx-pager">
+									<a data-slide-index="0" href=""><img src="img/reviews/reviews-mini_1.png" /></a>
+									<a data-slide-index="1" href=""><img src="img/reviews/reviews-mini_2.png" /></a>
+									<a data-slide-index="2" href=""><img src="img/reviews/reviews-mini_3.png" /></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 review">
+							<div class="review-img__left">
+								<div class="review_header">
+									<div class="review_header__photo">
+										<img src="img/icons/women-review__icon.png" alt="" class="icon__sex">
+									</div>
+									<p>Елена</p>
+								</div>
+								<div class="review_header__commentary">
+									<p>Хочу оставить свою признательность за  чудесную кухню «Олимпия», фабрики Plaza Real! Очень благодарна Татьяне Домениковой за  дизайн-проект своей кухни.  Мне так хотелось сделать свою кухню самой красивой, оригинальной, функциональной. Результат показал, что в выборе дизайнера я не ошиблась.</p>
+								</div>
+								<div class="review_header__date">
+									<p>28.09.2017</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 review">
+							<div class="review-img__left">
+								<div class="review_header">
+									<div class="review_header__photo">
+										<img src="img/icons/men-review__icon.png" alt="" class="icon__sex">
+									</div>
+									<p>Елена</p>
+								</div>
+								<div class="review_header__commentary">
+									<p>Хочу оставить свою признательность за  чудесную кухню «Олимпия», фабрики Plaza Real! Очень благодарна Татьяне Домениковой за  дизайн-проект своей кухни.  Мне так хотелось сделать свою кухню самой красивой, оригинальной, функциональной. Результат показал, что в выборе дизайнера я не ошиблась.</p>
+								</div>
+								<div class="review_header__date">
+									<p>28.09.2017</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="container-menu">
+								<div class="modal-window__btn">
+									<a href="#win2" class="button-menu button-menu_reviews">Оставить отзыв</a>
+								</div>
+								<!-- Модальное окно 1 -->
+								<a href="#x" class="overlay-menu" id="win2"></a>
+								<div class="popup-menu popup-menu_reviews">
+									<div class="poup-1">
+										<p class="popup-menu__name">Оставить отзыв</p>
+										<form action="#" method="post">
+											<p class="input__name">
+												<input type="text" id="name" name="name" placeholder="Имя" />
+											</p>
+											<p class="input__number">
+												<input type="number" id="number" name="number" placeholder="Телефон" />
+											</p>
+											<p class="input__city">
+												<input type="text" id="city" name="city" placeholder="Город" />
+											</p>
+											<p class="input__email">
+												<input type="text" id="email" name="email" placeholder="Email" />
+											</p>
+											<p class="input__textarea">
+												<textarea type="textarea" id="comments" name="comments" placeholder="Ваш отзыв"></textarea>
+											</p>
+											<p class="file_p">
+												<span>Прикрепить фото</span>
+												<input type="file" name="file" id="file" class="inputfile" />
+												<label for="file">Выбрать файл</label>
+											</p>
+											<div class="check-calculated check-calculated-contacts">
+												<input type="checkbox" id="check1" name="check1" checked/>
+												<label for="check1">Я принимаю <a href="#">Условия использования <span>персональных данных</span></a></label>
+											</div>
+											<a href="#" class="btn-contacts">Отправить</a>
+										</form>
+										<a class="close-menu" title="Закрыть" href="#close"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="footer page-grey">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 footer-left">
+								<ul>
+									<li><a href="#">Каталог</a></li>
+									<li><a href="#">О фабрике</a></li>
+									<li><a href="#">Сотрудничество</a></li>
+								</ul>
+								<ul>
+									<li><a href="#">Доставка</a></li>
+									<li><a href="#">Отзывы</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+							</div>
+							<div class="col-md-6 footer-right">
+								<ul>
+									<li>
+										<a href="#">
+											<img src="img/icons/marker.png" alt="">
+										</a>
+										<p>
+											Дальневосточный пр., дом 14,Секции 327
+										</p>
+									</li>
+									<li>
+										<a href="#">
+											<img src="img/icons/phone.png" alt="">
+										</a>
+										<p>
+											<a href="#">8 - (931) - 237 - 71 - 30</a>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- scripts -->
+			<script type="text/javascript" src="libs/jquery/jquery-3.3.1.min.js"></script>
+			<script type="text/javascript" src="libs/jquery-ui/jquery-ui.min.js"></script>
+			<script src="libs/OwlCarousel/dist/owl.carousel.min.js"></script>
+			<script src="libs/bxslider/dist/jquery.bxslider.min.js"></script>
+			<script type="text/javascript" src="js/main.js"></script>
+		</body>
+	</html>

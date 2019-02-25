@@ -54,6 +54,9 @@ top: 30%;
 -webkit-transform: translate(-50%,-50%);
 transform: translate(-50%, -50%);
 }
+.overlay-menu:target+.popup-menu_reviews {
+top: 22%;
+}
 /* формируем кнопку закрытия */
 .close-menu {
 position: absolute;
