@@ -1973,6 +1973,8 @@ left: 8px;
 .img-slider__reviews #bx-pager a {
 	max-width: 85px;
 	max-height: 85px;
+	width: 100%;
+	height: 100%;
 }
 .img-slider__reviews #bx-pager a img {
 	width: 100%;
@@ -2019,4 +2021,36 @@ left: 8px;
 }
 .button-menu_reviews {
 	margin-bottom: 50px;
+}
+.search__item__catalog {
+	max-width: 295px;
+	margin-bottom: 17px;
+}
+/*style catalog*/
+.catalog-product_all {
+	display: flex;
+	margin-bottom: 20px; 
+}
+.catalog-product {
+	padding: 0 10px;
+	text-align: left;
+}
+.catalog-product img {
+	width: 100%;
+}
+.catalog-product p {
+	font-family: MontserratRegular;
+	font-size: 16px;
+	line-height: 1.13;
+  letter-spacing: 0.4px;
+	text-align: left;
+}
+.catalog-product a p {
+	font-family: Gregor;
+	font-size: 18px;
+	line-height: 1;
+	letter-spacing: 0.5px;
+}
+.page-prod-collect {
+	padding-bottom: 40px;
 }

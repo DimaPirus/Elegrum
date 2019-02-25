@@ -574,9 +574,20 @@ height: 80px;
 	min-width: 70%;
 }
 .img-slider__reviews {
-	width: 30%;
+	width: 40%;
 	align-items: center;
 	justify-content: center;
+}
+.img-slider__reviews #bx-pager a {
+	max-width: 65px;
+	max-height: 65px;
+}
+/*tab catalog*/
+.catalog-product p {
+	font-size: 14px;
+}
+.catalog-product a p {
+	font-size: 14px;
 }
 }
 /* Small Devices, Tablets */
@@ -1250,6 +1261,32 @@ margin-bottom: 5px;
 }
 .popup-menu__united .slct {
 	font-size: 10px;
+}
+.footer-left {
+	flex-direction: column;
+	border: none;
+	padding-bottom: 10px;
+}
+.footer-left:after {
+	content: "";
+	display: block;
+	width: 100px;
+	height: 1px;
+	margin: 10px auto 0 auto;
+	background: #e3e3e3;
+}
+.footer-left ul:nth-of-type(1) {
+	margin: 0;
+}
+.footer ul li {
+	text-align: center;
+}
+.footer-right {
+	justify-content: center;
+	margin-top: 15px;
+}
+.footer-right ul li {
+	justify-content: center;
 }
 }
 @media only screen and (max-width: 600px) {
