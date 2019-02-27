@@ -1288,6 +1288,127 @@ margin-bottom: 5px;
 .footer-right ul li {
 	justify-content: center;
 }
+.cooperation-inform_img {
+	height: auto;
+	background-image: none;
+	background: white;
+	padding-left: 0;
+	padding-right: 0;
+}
+.p-page__title-delivery {
+	padding-top: 14px;
+	padding-bottom: 7px;
+}
+.p-page__title-cooperation-after:after {
+	top: 7px;
+	width: 150px;
+}
+.cooperation-inform__p-shadow_mob {
+	font-size: 12px;
+	margin-top: 25px;
+	padding: 15px;
+box-shadow: 0.5px 0.9px 21px 0 rgba(0, 0, 0, 0.2);
+}
+.p-page__title-delivery,
+.p-page__title-min,
+.cooperation-help p {
+	 font-size: 14px;
+}
+.cooperation-inform-second .cooperation-inform__p,
+.p-delivery_one,
+.p-delivery_two,
+.delivery-inform p {
+	font-size: 12px;
+}
+.cooperation-help img {
+	width: 40px;
+}
+.cooperation-help {
+	padding-top: 30px;
+	height: 140px;
+}
+.cooperation-modal {
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+.delivery-inform_img {
+	padding-top: 45px;
+	margin-bottom: 40px;
+	height: 290px;
+}
+.p-page__title-delivery-after:after {
+	top: 7px;
+	width: 90px;
+}
+.p-delivery_one, .p-delivery_two {
+	margin: 20px auto 20px auto;
+}
+.logo-delivery {
+	top: -19px;
+	margin-left: -15px;
+	width: 30px;
+}
+.review-img {
+	flex-direction: column;
+}
+.img-slider__reviews {
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;	
+	margin-top: 20px;
+}
+.review_header__photo {
+	width: 60px;
+	height: 60px;
+}
+.review_header__photo img {
+	top: 0;
+	left: -30px;
+	zoom: 0.5;
+}
+.container-reviews {
+	padding-top: 21px;
+}
+.review {
+	padding: 15px;
+}
+.review-img .review-img__left {
+	max-width: 100%;
+	padding-right: 0;
+}
+.review_header__commentary {
+	margin-top: 15px;
+}
+.page-reviews_mob {
+	padding-bottom: 40px;
+}
+.popup-menu .file_p {
+	max-width: 80%;
+	flex-direction: column;
+	height: 80px;
+	justify-content: center;
+	font-size: 10px;
+}
+.popup-menu .file_p label {
+	margin-top: 15px;
+	font-size: 10px;
+}
+.img-slider__reviews #bx-pager a {
+	max-width: 105px;
+	width: 30%;
+}
+.review_header__commentary p {
+	font-size: 12px;
+}
+.review_header {
+	font-size: 14px;
+}
+.review_header__photo .icon__sex {
+	left: 15px;
+}
+.review_header__photo .icon__sex-men {
+	left: 13px;
+}
 }
 @media only screen and (max-width: 600px) {
 .button-carousel, .button-carousel-2 {
@@ -1321,6 +1442,9 @@ padding-left: 3px;
 }
 .page-prod-collect__mob .column-right__one img {
 height: 75%;
+}
+.delivery-inform p {
+	padding: 40px 30px;
 }
 }
 @media only screen and (max-width: 480px) {

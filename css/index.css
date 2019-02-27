@@ -1687,7 +1687,8 @@ height: 39px;
 .p-page__title-delivery {
 padding-top: 13px;
 }
-.p-page__title-delivery-after:after {
+.p-page__title-delivery-after:after,
+.p-page__title-cooperation-after:after {
 position: relative;
 top: -3px;
 content: " ";
